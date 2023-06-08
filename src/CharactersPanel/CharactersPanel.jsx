@@ -1,4 +1,4 @@
-const CharactersPanel = (props) => {
+const CharactersPanel = () => {
   return (
     <div>
       Hello, this is my component!
