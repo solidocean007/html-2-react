@@ -1,4 +1,5 @@
 import { data } from "../../public/fma-data";
+import './topCharacters.css'
 
 const voteSort = (dataArray) => {
   return [...dataArray]
