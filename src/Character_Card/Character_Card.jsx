@@ -1,13 +1,6 @@
 import "./character_card.css";
 
-const Character_Card = ({
-  name,
-  skillset,
-  votes,
-  imageUrl,
-  background,
-  nickName,
-}) => {
+const Character_Card = ({ name, imageUrl, background, nickName }) => {
   console.log(name);
   return (
     <div className="card">
