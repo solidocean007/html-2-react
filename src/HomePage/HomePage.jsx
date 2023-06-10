@@ -7,11 +7,11 @@ import CharactersPanel from "../CharactersPanel/CharactersPanel";
 class HomePage extends Component {
   render() {
     return (
-      <body>
+      <>
         <Header />
         <TopCharacters />
         <CharactersPanel />
-      </body>
+      </>
     );
   }
 }
